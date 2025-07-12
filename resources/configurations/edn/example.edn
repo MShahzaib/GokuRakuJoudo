@@ -38,7 +38,7 @@
          :7 {:ckey :display_brightness_decrement}
          :8 {:ckey :display_brightness_decrement :modi :left_command}
          :9 {:pkey :button4 :modi :left_command}
-         :10 {:sim [:a :b] :modi :left_command}
+         :10 {:sim [:a :b] :modi :left_command} ;; simultaneous key to key
          :11 {:sim [:a :b]
               :simo {:interrupt true
                      :dorder :insensitive}
